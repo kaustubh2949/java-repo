@@ -4,15 +4,12 @@ how to deploy java application in ec2 manually
 ✅ Tomcat + WAR Deployment on Amazon EC2 (Verified Steps)
 🧱 Pre-requisites (already done):
 Java 17 (Amazon Corretto)
-
 Maven
 
 A WAR file (ROOT.war) built via Maven in /home/ec2-user/Java-Repo/target/
 
 🚀 Step-by-Step Deployment
 bash
-Copy
-Edit
 # 1. Go to /opt (standard location for services)
 cd /opt
 
@@ -45,8 +42,4 @@ sudo ./bin/startup.sh
 tail -f /opt/tomcat/apache-tomcat-9.0.87/logs/catalina.out
 🌐 Access Your Deployed App
 Open your browser:
-
-cpp
-Copy
-Edit
 http://<Your-Public-IP>:8080/
