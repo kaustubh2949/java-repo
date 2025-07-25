@@ -1,4 +1,4 @@
-how to deploy java application in ec2 manually 
+How To Deploy Java Application in EC2 Manually 
 
 
 ✅ Tomcat + WAR Deployment on Amazon EC2 (Verified Steps)
