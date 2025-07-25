@@ -40,6 +40,7 @@ sudo ./bin/startup.sh
 
 # 10. Check logs to ensure successful deployment
 tail -f /opt/tomcat/apache-tomcat-9.0.87/logs/catalina.out
+
 🌐 Access Your Deployed App
 Open your browser:
 http://<Your-Public-IP>:8080/
